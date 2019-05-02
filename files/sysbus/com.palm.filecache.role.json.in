@@ -5,6 +5,7 @@
     "permissions": [
         {
             "service":"com.palm.filecache",
+            "inbound":["com.palm.configurator"],
             "outbound":[]
         }
     ]
