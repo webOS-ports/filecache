@@ -6,7 +6,7 @@
         {
             "service":"com.palm.filecache",
             "inbound":["com.palm.configurator"],
-            "outbound":[]
+            "outbound":["com.palm.configurator"]
         }
     ]
 }
