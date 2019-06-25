@@ -5,8 +5,8 @@
     "permissions": [
         {
             "service":"com.palm.filecache",
-            "inbound":["com.palm.configurator"],
-            "outbound":["com.palm.configurator"]
+            "inbound":["", "com.palm.configurator", "com.palm.imap", "com.palm.smtp", "com.palm.pop"],
+            "outbound":["", "com.palm.configurator", "com.palm.imap", "com.palm.smtp", "com.palm.pop"]
         }
     ]
 }
