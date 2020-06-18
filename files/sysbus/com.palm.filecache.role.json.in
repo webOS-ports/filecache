@@ -5,8 +5,8 @@
     "permissions": [
         {
             "service":"com.palm.filecache",
-            "inbound":["", "com.palm.configurator", "com.palm.imap", "com.palm.smtp", "com.palm.pop", "com.palm.service.accounts", "com.palm.service.contacts", "com.palm.service.contacts.linker", "com.palm.service.calendar.reminders"],
-            "outbound":["", "com.palm.configurator", "com.palm.imap", "com.palm.smtp", "com.palm.pop", "com.palm.service.accounts", "com.palm.service.contacts", "com.palm.service.contacts.linker", "com.palm.service.calendar.reminders"]
+            "inbound":["", "com.palm.*", "com.webos.*", "org.webosports.*"],
+            "outbound":["", "com.palm.*", "com.webos.*", "org.webosports.*"]
         }
     ]
 }
